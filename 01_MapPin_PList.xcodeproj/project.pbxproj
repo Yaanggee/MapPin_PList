@@ -14,6 +14,8 @@
 		2412771E1F70B7F400EC3E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2412771C1F70B7F400EC3E54 /* LaunchScreen.storyboard */; };
 		241277291F70B7F400EC3E54 /* _1_MapPin_PListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241277281F70B7F400EC3E54 /* _1_MapPin_PListTests.swift */; };
 		241277341F70B7F400EC3E54 /* _1_MapPin_PListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241277331F70B7F400EC3E54 /* _1_MapPin_PListUITests.swift */; };
+		241277431F70B80100EC3E54 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241277421F70B80100EC3E54 /* MapKit.framework */; };
+		241277451F70B99600EC3E54 /* ViewPoint3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 241277441F70B99600EC3E54 /* ViewPoint3.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		2412772F1F70B7F400EC3E54 /* 01_MapPin_PListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_MapPin_PListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		241277331F70B7F400EC3E54 /* _1_MapPin_PListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_MapPin_PListUITests.swift; sourceTree = "<group>"; };
 		241277351F70B7F400EC3E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241277421F70B80100EC3E54 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		241277441F70B99600EC3E54 /* ViewPoint3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ViewPoint3.plist; path = "../../MapPinPList-master 2/MapPinPLiist/ViewPoint3.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241277431F70B80100EC3E54 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				241277271F70B7F400EC3E54 /* 01_MapPin_PListTests */,
 				241277321F70B7F400EC3E54 /* 01_MapPin_PListUITests */,
 				241277111F70B7F300EC3E54 /* Products */,
+				241277411F70B80000EC3E54 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +103,7 @@
 		241277121F70B7F300EC3E54 /* 01_MapPin_PList */ = {
 			isa = PBXGroup;
 			children = (
+				241277441F70B99600EC3E54 /* ViewPoint3.plist */,
 				241277131F70B7F400EC3E54 /* AppDelegate.swift */,
 				241277151F70B7F400EC3E54 /* ViewController.swift */,
 				241277171F70B7F400EC3E54 /* Main.storyboard */,
@@ -123,6 +130,14 @@
 				241277351F70B7F400EC3E54 /* Info.plist */,
 			);
 			path = 01_MapPin_PListUITests;
+			sourceTree = "<group>";
+		};
+		241277411F70B80000EC3E54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				241277421F70B80100EC3E54 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +249,7 @@
 			files = (
 				2412771E1F70B7F400EC3E54 /* LaunchScreen.storyboard in Resources */,
 				2412771B1F70B7F400EC3E54 /* Assets.xcassets in Resources */,
+				241277451F70B99600EC3E54 /* ViewPoint3.plist in Resources */,
 				241277191F70B7F400EC3E54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
